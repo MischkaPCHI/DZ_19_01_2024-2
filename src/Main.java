@@ -13,7 +13,7 @@ public class Main {
         personList.add("Lena,17");
         personList.add("Olga,28");
 
-        ConvertToPersonList.convertToPersonList(personList);
+        System.out.println(ConvertToPersonList.convertToPersonList(personList));
 
         System.out.println(personList);
 
